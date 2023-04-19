@@ -1,0 +1,86 @@
+#container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  #Adiv{
+      width: 200px;
+      height: 200px;
+      background-color: lightblue;
+      border: solid;
+      margin: 40px;
+      padding: 20px;
+  }
+  
+  #Bdiv{
+      width: 200px;
+      height: 200px;
+      background-color: pink;
+      border: solid;
+      margin: 40px;
+      padding: 20px;
+  }
+  
+  #Cdiv{
+      width: 200px;
+      height: 200px;
+      background-color: coral;
+      border: solid;
+      margin: 40px;
+      padding: 20px;
+  }
+  
+  #Ddiv{
+      width: 200px;
+      height: 200px;
+      background-color: lightgoldenrodyellow;
+      border: solid;
+      margin: 40px;
+      padding: 20px;
+  }
+  
+  li {
+    width:70px;
+    height: 20px;
+    background-color:hotpink;
+    margin: 10px;
+    padding: 5px;
+  }
+
+  li:hover{
+      background-color: darkgray;
+  }
+  
+  ul{
+      list-style-type:none;
+  }
+  
+  @media (max-width: 480px){
+      
+  }
+  
+  @media (min-width: 481px) and (max-width: 1024px){
+      
+  }
+  
+  @media (min-width: 1025px) and (max-width: 1280px)
+  {
+      #Adiv {
+        order:1;
+      }
+  
+      #Bdiv {
+        order:4;
+      }
+  
+      #Cdiv {
+        order:2;
+      }
+  
+      #Ddiv {
+        order:3;
+      }
+  
+      
+  }
